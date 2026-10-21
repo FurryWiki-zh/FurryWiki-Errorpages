@@ -17,11 +17,11 @@ require_once __DIR__ . \DIRECTORY_SEPARATOR . '404_guessTarget.php';
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="sourcecode" href="https://github.com/TopRealm/YsArchives-Errorpages" />
+    <link rel="sourcecode" href="https://github.com/FurryWiki-zh/FurryWiki-Errorpages" />
     <link rel="copyright" href="https://creativecommons.org/licenses/by-sa/4.0/" />
     <link rel="license" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" />
     <link rel="icon" href="/favicon.ico" />
-    <title>HTTP 404 页面未找到 - 有兽档案馆，开放的有兽焉wiki</title>
+    <title>HTTP 404 页面未找到 - 福瑞百科，开放的亚文化专题百科</title>
     <style>
 *{margin:0;padding:0}
 html{width:100%;background:#fff;color:#000;font-family:"Noto Serif","Source Serif","Noto Serif SC","Source Han Serif SC",Times New Roman,Times,STSong,SimSun,serif;line-height:1.75}
@@ -55,11 +55,11 @@ footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex
 </head>
 <body>
     <header>
-        <a href="https://youshou.wiki" title="有兽档案馆">
-            <img src="https://image.youshou.wiki/e/e1/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E7%BB%BF%E8%89%B2%E5%9B%BE%E4%B9%A6Logo.svg"
-                width="50" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
-            <img src="https://image.youshou.wiki/4/4f/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97.svg"
-                width="150" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
+        <a href="https://furrywiki.org.cn" title="福瑞百科">
+            <img src="https://image.furrywiki.org.cn/e/e1/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E7%BB%BF%E8%89%B2%E5%9B%BE%E4%B9%A6Logo.svg"
+                width="50" height="50" alt="福瑞百科 - 开放的亚文化专题百科" />
+            <img src="https://image.furrywiki.org.cn/4/4f/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97.svg"
+                width="150" height="50" alt="福瑞百科 - 开放的亚文化专题百科" />
         </a>
     </header>
     <main>
@@ -74,7 +74,7 @@ footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex
             Did you want to visit <a href="<?php echo getTarget()['encTarget']; ?>"><?php echo getTarget()['decTarget']; ?></a>?
         </p>
         <p>
-            若您有任何疑问，请联系QQ群：<b>643632328</b>。<br>Any inquires should be sent to <b>643632328</b>.
+            若您有任何疑问，请联系QQ群：<b>904970051</b>。<br>Any inquires should be sent to <b>904970051</b>.
         </p>
         <p>
             您可以返回<a href="/">首页</a>。<br>You may return to the <a href="/">home page</a>.
@@ -82,29 +82,29 @@ footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex
     </main>
     <footer>
         <div class="footer-copyright">
-            <p>© 2023 - <?php echo getYear(); ?> 有兽档案馆</p>
+            <p>© 2026 - <?php echo getYear(); ?> 福瑞百科</p>
             <p>
-                有兽档案馆原创文字、图形、图文组合，均是本网站运营者或其关联实体的标志或注册标志。<br>
+                福瑞百科原创文字、图形、图文组合，均是本网站运营者或其关联实体的标志或注册标志。<br>
                 本站所有内容均以<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noreferrer noopener" target="_blank">知识共享 署名-相同方式共享 4.0 国际许可协议</a>进行许可。
             </p>
         </div>
         <div class="footer-links">
             <a class="ysliblink ysliblink-about"
-                href="https://youshou.wiki/wiki/LIB:ABOUT" target="_blank">关于有兽档案馆</a>
-            <a class="ysliblink ysliblink-tos" href="https://youshou.wiki/wiki/LIB:TOS"
+                href="https://furrywiki.org.cn/wiki/FWIKI:ABOUT" target="_blank">关于福瑞百科</a>
+            <a class="ysliblink ysliblink-tos" href="https://furrywiki.org.cn/wiki/FWIKI:TOS"
                 rel="noreferrer noopener" target="_blank">用户协议</a>
             <a class="ysliblink ysliblink-pipp"
-                href="https://youshou.wiki/wiki/LIB:PIPP"
+                href="https://furrywiki.org.cn/wiki/FWIKI:PIPP"
                 rel="noreferrer noopener" target="_blank">隐私保护</a>
-            <a class="source source-code" href="https://github.com/TopRealm/YsArchives-Errorpages" rel="noreferrer noopener"
+            <a class="source source-code" href="https://github.com/FurryWiki-zh/FurryWiki-Errorpages" rel="noreferrer noopener"
                 target="_blank">错误页面源码地址（GNU ver.2）</a>
             <a class="govlink govlink-icp" href="https://beian.miit.gov.cn/" rel="noreferrer noopener"
-                target="_blank">晋ICP备2023005192号</a>
+                target="_blank">晋ICP备2026005192号</a>
         </div>
         <div class="footer-buttons">
-            <a href="https://youshou.wiki/" title="有兽档案馆授权协议" target="_blank" rel="noopener noreferrer"><img
+            <a href="https://furrywiki.org.cn/" title="福瑞百科授权协议" target="_blank" rel="noopener noreferrer"><img
                     alt="授权协议" width="88" height="31"
-                    src="https://youshou.wiki/resources/assets/cc-by-sa.svg" /></a>
+                    src="https://furrywiki.org.cn/resources/assets/cc-by-sa.svg" /></a>
         </div>
     </footer>
     <?php echo matomoJS(); ?>

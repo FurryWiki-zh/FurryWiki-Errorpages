@@ -43,7 +43,7 @@ function getTarget()
     ) {
         // "/w/Foo" -> "/wiki/Foo"
         $target = '/wiki/' . $matches[1];
-    } elseif (preg_match('/^\/(lib|有兽档案馆|wp|help|h|special|file|image|media|template|t|module)(:|：)(.*)/i', $url, $matches)) {
+    } elseif (preg_match('/^\/(lib|福瑞百科|wp|help|h|special|file|image|media|template|t|module)(:|：)(.*)/i', $url, $matches)) {
         // "/qw:Foo" -> "/wiki/qw:Foo"
         $target = '/wiki/' . $matches[1] . ':' . $matches[3];
     } elseif (preg_match('/^\/(?:wiki)(.*)/i', $url, $matches)) {
