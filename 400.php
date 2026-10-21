@@ -24,12 +24,13 @@ require_once __DIR__ . \DIRECTORY_SEPARATOR . 'matomoJS.php';
 html{width:100%;background:#fff;color:#000;font-family:"Noto Serif","Source Serif","Noto Serif SC","Source Han Serif SC",Times New Roman,Times,STSong,SimSun,serif;line-height:1.75}
 body,html{min-height:100vh}
 body{display:flex;margin:0 auto;max-width:83vw;flex-wrap:wrap;flex-direction:column;justify-content:space-between}
-header{margin:10vh 0 0;padding-bottom:1em;border-bottom:5px solid #328c60}
+header{margin:10vh 0 0;padding-bottom:1em;border-bottom:5px solid #ff9900}
 header a{font-size:1.5em;font-weight:700;color:#000}
 header a:hover{text-decoration:none}
 a img{border:0;vertical-align:text-bottom;margin:0 5px}
 main{display:flex;margin:1em auto;min-width:70vw;flex-wrap:wrap;flex-direction:column;padding:1em}
 h1{line-height:1.5;font-size:1.625em;margin-top:1em;margin-bottom:.5em}
+main h1 em{color:#a65300}
 p{margin:.5em 0}
 a{color:#36c;text-decoration:none}
 a:hover{text-decoration:underline}
@@ -66,7 +67,7 @@ footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex
         很抱歉，您的请求格式有误，服务器无法理解。<br>Sorry, the server cannot understand your request due to malformed syntax.
     </p>
     <p>
-        若您有任何疑问，请联系QQ群：<b>904970051</b>。<br>Any inquires should be sent to <b>904970051</b>.
+        若您有任何疑问，请加入QQ群：<b>904970051</b>。<br>If in doubt, join QQ group chat <b>904970051</b>.
     </p>
     <p>
         您可以尝试使用正确的请求格式访问或返回<a href="/">首页</a>。<br>You may try with a correct request format or return to the <a href="/">home page</a>.
